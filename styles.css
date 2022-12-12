@@ -151,6 +151,7 @@ h2 {
   background-position: top right;
   background-position-y: 15%;
   background-size: 10vh;
+  height: 150vw;
 }
 
 #serv-card > img {
@@ -178,7 +179,7 @@ h2 {
 
 .subheader {
   position: relative;
-  top: 2vh;
+  top: 7vh;
 }
 
 h3 {
@@ -207,5 +208,11 @@ h3 {
   font-family: 'Larken';
 }
 #nav-anchor:hover {
+  color: #ffd700;
+}
+a {
+  text-decoration: none;
+}
+#foot-link:hover {
   color: #ffd700;
 }
