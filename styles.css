@@ -151,7 +151,7 @@ h2 {
   background-position: top right;
   background-position-y: 20%;
   background-size: 10vh;
-  height: 150vw;
+  height: 90vh;
 }
 
 #serv-card > img {
@@ -170,7 +170,7 @@ h2 {
 }
 
 .w3-row {
-  padding: 3vh 0;
+  padding: 30px 0;
 }
 
 #section-4 {
@@ -179,13 +179,14 @@ h2 {
 
 .subheader {
   position: relative;
-  top: 7vh;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
 }
 
 h3 {
   text-align: center;
   font-size: 40px !important;
-  padding: 10vh 0;
+  padding: 0 0;
   font-family: 'Larken' !important;
 }
 
