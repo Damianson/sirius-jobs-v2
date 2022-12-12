@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@font-face {
+  font-family: Larken;
+  font-display: swap;
+  src: url(assets/font/LarkenDEMO-Regular.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
+  background-color: #222222;
+  font-family: 'Larken', sans-serif;
+}
+section {
+  height: 100vh;
+  position: relative;
+}
+#section-1 {
+  color: white;
+}
+a#scroll-btn {
+  background-color: #403E3E;
+  position: absolute;
+  height: 75px;
+  width: 40px;
+  border: 5px solid #403E3E;
+  box-shadow: inset 0px 0px 0px 2px #757474;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+  border-radius: 3em;
+}
+a#scroll-btn:before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #ffd700;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
+@keyframes move-down {
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(5.3em);
+    opacity: 0;
+  }
+}
+/*a#scroll-btn:after {
+  position: absolute;
+  content: "SCROLL DOWN";
+  width: 12em;
+  display: block;
+  width: 12em;
+  text-align: center;
+  left: -4.2em;
+  bottom: -2.5em;
+  font-size: 1.6em;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-weight: 600;
+}*/
+#section-2 {
+  background: 
+  linear-gradient(100deg,transparent 49.8%,#574d1a 50%) right   /80% 100%;
+  background-repeat:no-repeat;
+  color: #ffffff;
+  /*
+  font-size: 2.7em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;*/
+}
+@media screen and (max-width: 500px) {
+  a#scroll-btn {
+    font-size: 12px;
+  }
+}
+
+
+/* main */
+
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+}
+.w3-bar {
+  background-color: #222222;
+}
+html, body {
+  overflow-x: hidden;
+}
+.hero > h1 {
+  font-family: 'Larken';
+  font-weight: 700;
+  font-size: 50px;
+}
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+}
+.about {
+  position: absolute;
+  top: 20vh;
+}
+
+.about > h1 {
+  font-family: 'Larken';
+  font-weight: 700;
+}
+
+.services {
+  position: absolute;
+  top: 7vh;
+}
+
+.services > div {
+  padding-top: 8vh;
+}
+
+.services > h2 {
+  font-family: 'Larken';
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#section-3 {
+  background-image: url(assets/Decoration.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position-y: 15%;
+  background-size: 10vh;
+}
+
+#serv-card > img {
+  height: 80px;
+  width: 80px;
+}
+
+#serv-card > div {
+  padding-top: 18px;
+}
+
+#serv-card > div > p {
+  font-family: 'Larken';
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.w3-row {
+  padding: 3vh 0;
+}
+
+#section-4 {
+  height: fit-content;
+}
+
+.subheader {
+  position: relative;
+  top: 2vh;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px !important;
+  padding: 10vh 0;
+  font-family: 'Larken' !important;
+}
+
+#footer > div > p {
+  font-size: 14px;
+}
+#logo {
+  height: 30px;
+  width: 100px;
+}
+#social {
+  padding-top: 3px;
+  padding-bottom: 3vh;
+}
+#social-icon {
+  height: 20px;
+  width: 20px;
+}
+#nav-anchor {
+  font-family: 'Larken';
+}
+#nav-anchor:hover {
+  color: #ffd700;
+}
