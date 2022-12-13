@@ -16,11 +16,14 @@ html {
   background-color: #222222;
   font-family: 'Larken', sans-serif;
 }
-section {
+/*section {
   height: 100vh;
   position: relative;
-}
+}*/
+
 #section-1 {
+  height: 100vh;
+  position: relative;
   color: white;
 }
 a#scroll-btn {
@@ -76,6 +79,7 @@ a#scroll-btn:before {
   linear-gradient(100deg,transparent 49.8%,#574d1a 50%) right   /80% 100%;
   background-repeat:no-repeat;
   color: #ffffff;
+  height: 100vh;
   /*
   font-size: 2.7em;
   text-align: center;
@@ -116,19 +120,15 @@ p {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
 }
-.about {
-  position: absolute;
-  top: 20vh;
-}
 
 .about > h1 {
   font-family: 'Larken';
   font-weight: 700;
+  padding-top: 20vh;
 }
 
 .services {
-  position: absolute;
-  top: 7vh;
+  padding-top: 7vh;
 }
 
 .services > div {
@@ -146,12 +146,12 @@ h2 {
   line-height: 30px;
 }
 #section-3 {
+  position: relative;
   background-image: url(assets/Decoration.svg);
   background-repeat: no-repeat;
   background-position: top right;
   background-position-y: 20%;
   background-size: 10vh;
-  height: 90vh;
 }
 
 #serv-card > img {
@@ -173,14 +173,13 @@ h2 {
   padding: 30px 0;
 }
 
-#section-4 {
-  height: fit-content;
-}
+/*#section-4 {
+  
+}*/
 
 .subheader {
-  position: relative;
-  padding-top: 2vw;
-  padding-bottom: 5vw;
+  padding-top: 12vh;
+  padding-bottom: 20vh;
 }
 
 h3 {
@@ -216,4 +215,69 @@ a {
 }
 #foot-link:hover {
   color: #ffd700;
+}
+
+/* tablet screen sizes */
+@media only screen and (min-width: 600px) {
+  nav > :first-child {
+    padding-left: 5%;
+    padding-right: 5% !important;
+  }
+  .hero {
+    left: 55%;
+  }
+  .hero > h1 {
+    width: 80%;
+  }
+  .hero > p {
+    width: 60%;
+  }
+  .about > h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about > p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .services > div > h2 {
+    padding-left: 5%;
+  }
+  #footer > div {
+    padding-left: 5%;
+  }
+}
+
+/* desktop screen sizes */
+@media only screen and (min-width: 992px) {
+  .hero > h1 {
+    font-size: 72px !important;
+    width: 60%;
+  }
+  .hero > p {
+    width: 32%;
+  }
+  .about > h1 {
+    font-size: 48px;
+  }
+  .about > p {
+    font-size: 20px;
+    padding-right: 20%;
+  }
+  .services > div > h2 {
+    font-size: 40px !important;
+  }
+  #serv-card > div > p {
+    font-size: 18px !important;
+  }
+  #serv-card > img {
+    height: 120px;
+    width: 120px;
+  }
+  .subheader > h3 {
+    font-size: 80px !important;
+  }
+  #footer > :last-child {
+    padding-left: 15%;
+  }
 }
