@@ -107,6 +107,10 @@ a#scroll-btn:before {
 }
 .w3-bar {
   background-color: #222222;
+  height: 7vh;
+}
+.w3-bar > div {
+  padding-top: 0.5vh;
 }
 html, body {
   overflow-x: hidden;
