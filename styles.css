@@ -23,7 +23,8 @@ html {
 #section-1 {
   height: 100vh;
   position: relative;
-  color: #000000;
+  color: #ffffff;
+  background-color: #222222;
 }
 a#scroll-btn {
   background-color: #403E3E;
@@ -104,8 +105,12 @@ a#scroll-btn:before {
   transform: translate(-50%, -50%);
   width: 100vw;
 }
+nav {
+  height: 8vh;
+  background-color: #ffffff;
+}
 .w3-bar {
-  background-color: #222222;
+  background-color: #ffffff;
 }
 html, body {
   overflow-x: hidden;
