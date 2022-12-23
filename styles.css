@@ -4,6 +4,10 @@
   font-display: swap;
   src: url(assets/font/LarkenDEMO-Regular.otf);
 }
+@font-face {
+  font-family: Circular-std;
+  src: url(assets/font/CircularStd-Book.ttf);
+}
 
 * {
   padding: 0;
@@ -14,7 +18,7 @@
 html {
   scroll-behavior: smooth;
   background-color: #222222;
-  font-family: 'Larken', sans-serif;
+  font-family: 'Circular-std', sans-serif;
 }
 /*section {
   height: 100vh;
@@ -109,26 +113,26 @@ a#scroll-btn:before {
 }
 .w3-bar {
   background-color: #222222;
-  height: 7vh;
+  height: 45px;
 }
 .w3-bar > div {
-  padding-top: 0.5vh;
+  padding-top: 4px;
 }
 html, body {
   overflow-x: hidden;
 }
 .hero > h1 {
-  font-family: 'Larken';
+  font-family: 'Circular-std';
   font-weight: 700;
   font-size: 50px;
 }
 p {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Circular-std', sans-serif;
   font-size: 18px;
 }
 
 .about > h1 {
-  font-family: 'Larken';
+  font-family: 'Circular-std';
   font-weight: 700;
   padding-top: 20vh;
 }
@@ -142,7 +146,7 @@ p {
 }
 
 .services > h2 {
-  font-family: 'Larken';
+  font-family: 'Circular-std';
   font-weight: 400;
 }
 
@@ -170,7 +174,7 @@ h2 {
 }
 
 #serv-card > div > p {
-  font-family: 'Larken';
+  font-family: 'Circular-std';
   font-size: 13px;
   font-weight: 500;
 }
@@ -192,7 +196,7 @@ h3 {
   text-align: center;
   font-size: 40px !important;
   padding: 0 0;
-  font-family: 'Larken' !important;
+  font-family: 'Circular-std' !important;
 }
 
 #footer > div > p {
@@ -211,7 +215,7 @@ h3 {
   width: 20px;
 }
 #nav-anchor {
-  font-family: 'Larken';
+  font-family: 'Circular-std';
 }
 #nav-anchor:hover {
   color: #ffd700;
