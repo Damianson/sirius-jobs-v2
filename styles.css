@@ -227,6 +227,85 @@ a {
   color: #ffd700;
 }
 
+/* About Us Page */
+
+#about-section-1 {
+  height: 50vh;
+  background-image: url(assets/about/daniel-olah-dFA5XycbhoQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-hero {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 50vh;
+}
+
+.about-hero > img {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#about-section-2 {
+  background-color: #ffffff;
+}
+
+.sec-2-left {
+  background-color: #FFD700;
+}
+
+.sec-2-left > div {
+  padding: 20px;
+}
+
+.sec-2-right > div > p {
+  color: #000000 !important;
+}
+
+.sec-2-right > div {
+  padding: 20px;
+}
+
+.sec-3-left,.sec-3-right > div {
+  height: 250px;
+}
+
+.sec-3-left > div {
+  padding: 34px;
+}
+
+.sec-3-right > div {
+  background-image: url(assets/about/jon-tyson-vVSleEYPSGY-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 34px;
+}
+
+.pencil-sec {
+  background-image: url(assets/about/ejoanna-kosinska-1_CMoFsPfso-unsplash.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pencil-sec > div:first-child {
+  padding-top: 200px;
+}
+
+#about-section-4 > div {
+  padding: 34px;
+}
+
+#about-section-5 {
+  background-color: #ffffff;
+}
+
 /* tablet screen sizes */
 @media only screen and (min-width: 600px) {
   nav > :first-child {
