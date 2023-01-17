@@ -315,6 +315,7 @@ a {
   background-image: url(assets/about/ian-schneider-TamMbr4okv4-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   height: 250px;
   width: 100%;
   border-radius: 18px;
