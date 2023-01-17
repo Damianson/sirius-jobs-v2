@@ -358,12 +358,12 @@ input[type=submit]:hover {
 }
 
 ::placeholder {
-  font-family: 'Circular-std', sans-serif;
+  font-family: 'Circular-std', sans-serif !important;
   font-size: 14px;
 }
 
 ::-webkit-placeholder {
-  font-family: 'Circular-std', sans-serif;
+  font-family: 'Circular-std', sans-serif !important;
   font-size: 14px;
 }
 
