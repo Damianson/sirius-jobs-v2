@@ -316,7 +316,7 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   height: 280px;
-  width: 420px !important;
+  width: 100%;
   border-radius: 18px;
 }
 
